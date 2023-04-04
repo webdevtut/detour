@@ -12,16 +12,19 @@
         &--p1 {
             left: 0;
             top: -2rem;
+            animation: moveInRight 1s ease-out;
         }
 
         &--p2 {
             right: 0;
             top: 2rem;
+            animation: moveInBottom 1s ease-out;
         }
 
         &--p3 {
             left: 20%;
             top: 10rem;
+            animation: moveInLeft 1s ease-out;
         }
 
         &:hover {
