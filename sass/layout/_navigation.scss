@@ -12,6 +12,8 @@
         right: 6rem;
         border-radius: 50%;
         z-index: 2000;
+        text-align: center;
+        cursor: pointer;
     }
     &__background {
         height: 6rem;
@@ -70,6 +72,8 @@
             transform: translateX(1rem);
         }
     }
+
+    // Functionality
     &__checkbox:checked ~ &__background {
         transform: scale(80);
     }
@@ -77,5 +81,53 @@
     &__checkbox:checked ~ &__nav {
         opacity: 1;
         width: 100%;
+    }
+
+    //Icon
+
+    &__icon {
+        position: relative;
+        margin-top: 3.5rem;
+
+        &,
+        &::before,
+        &::after {
+            width: 3rem;
+            height: 2px;
+            background-color: $color-grey-dark-3;
+            display: inline-block;
+        }
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            transition: all .2s;
+        }
+
+        &::before { top :-.8rem;}
+        &::after { top :.8rem;}
+
+    }
+
+    &__button:hover &__icon::before  {
+        top: -1rem;
+    }
+    &__button:hover &__icon::after {
+        top: 1rem;
+    }
+
+    &__checkbox:checked + &__button &__icon {
+        background-color: transparent;
+        
+        &::before { 
+            top: 0;
+            transform: rotate(135deg);
+        }
+        &::after { 
+            top: 0;
+            transform: rotate(-135deg);
+        }
     }
 }
