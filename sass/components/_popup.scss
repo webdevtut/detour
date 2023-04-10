@@ -26,6 +26,9 @@
     &__left {
         width: 33.333%;
         display: table-cell;
+        @include respond(tab-land) {
+            display: none;
+        }
     }
 
     &__right {
@@ -57,6 +60,14 @@
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+
+        @include respond(tab-land) {
+            column-count: 1;
+            column-gap: 1rem;
+            column-rule: 1px solid $color-grey-light-2;
+            max-height: 40vh;
+            overflow: scroll;
+        }
     }
 
     &:target {

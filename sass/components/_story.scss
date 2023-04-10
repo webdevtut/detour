@@ -9,6 +9,16 @@
     font-size: $default-font-size;
     line-height: 1.6;
     transform: skewX(-12deg);
+
+    @include respond(tab-port) {
+        width: 100%;
+        padding: 4rem;
+        padding-left: 7rem;
+    }
+
+    @include respond(phone) {
+        transform: skewX(0deg);
+    }
     
     // Direct child &>* does not work here for unskew purpose
     
@@ -22,10 +32,17 @@
         clip-path: circle(50% at 50% 50%);
         transform: translateX(-3rem) skewX(12deg);
         position: relative;
+
+        @include respond(phone) {
+            transform: translateX(-3rem) skewX(0deg);
+        }
     }
 
     &__text {
         transform: skewX(12deg);
+        @include respond(phone) {
+            transform: skewX(0deg);
+        }
     }
 
     & img {
