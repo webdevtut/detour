@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/webdevtut/css_learning_project_1">
+  <a href="https://github.com/webdevtut/detour">
     <img src="img/favicon.png" alt="Logo" width="100" height="100">
   </a>
 
@@ -16,14 +16,14 @@
   <p align="center">
     Tourism & Travel Guide Website
     <br />
-    <a href="https://github.com/webdevtut/css_learning_project_1/blob/master/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/webdevtut/detour/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://d-tour.up.railway.app/responsive">View Demo</a>
     ·
-    <a href="https://github.com/webdevtut/css_learning_project_1/issues">Report Bug</a>
+    <a href="https://github.com/webdevtut/detour/issues">Report Bug</a>
     ·
-    <a href="https://github.com/webdevtut/css_learning_project_1/issues">Request Feature</a>
+    <a href="https://github.com/webdevtut/detour/issues">Request Feature</a>
   </p>
 </div>
 
@@ -143,7 +143,7 @@ _For more examples, please refer to the [Documentation](https://d-tour.up.railwa
 - [ ] Add Features for User Accessibility
   - [ ] Camera access on device for taking pictures and uploading straight from device
 
-See the [open issues](https://github.com/webdevtut/css_learning_project_1/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/webdevtut/detour/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,7 +178,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@tushar-web-dev](https://linkedin.com/in/tushar-web-dev/) - tusharlookingforjob@gmail.com
 
-Project Link: [https://github.com/webdevtut/css_learning_project_1](https://github.com/webdevtut/css_learning_project_1)
+Project Link : [https://d-tour.up.railway.app](https://d-tour.up.railway.app/signup)
 
 Repository for NodeJS APIs is not public contact me for collaboration. [Udemy Certificate for NodeJS Course](https://www.udemy.com/certificate/UC-fb01642f-08ea-4305-851e-e37ebd37c528/)
 
@@ -203,10 +203,10 @@ Links I've found useful while building this project
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[issues-shield]: https://img.shields.io/github/issues/webdevtut/css_learning_project_1.svg?style=for-the-badge
-[issues-url]: https://github.com/webdevtut/css_learning_project_1/issues
-[license-shield]: https://img.shields.io/github/license/webdevtut/css_learning_project_1.svg?style=for-the-badge
-[license-url]: https://github.com/webdevtut/css_learning_project_1/blob/master/LICENSE.txt
+[issues-shield]: https://img.shields.io/github/issues/webdevtut/detour.svg?style=for-the-badge
+[issues-url]: https://github.com/webdevtut/detour/issues
+[license-shield]: https://img.shields.io/github/license/webdevtut/detour.svg?style=for-the-badge
+[license-url]: https://github.com/webdevtut/detour/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/tushar-web-dev/
 [product-screenshot]: deployed-images/screenshot.png
